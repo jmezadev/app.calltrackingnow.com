@@ -1,0 +1,77 @@
+#form-add-ext > .jarviswidget>header {
+	display: flex;
+    justify-content: left;
+    align-items: center;
+    height: auto;
+    color: white!important;
+    border: none!important;
+    background: #3276b1!important;
+ 
+}
+
+
+ #form-add-ext  #add-extension fieldset > .row > section {
+	display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+
+  #form-add-ext  #add-extension fieldset > .row > section > label:last-child {
+	padding-right: 0px!important;
+ 
+}
+
+#form-add-ext  #add-extension fieldset  {
+	
+    padding-left: 0!important;
+ 
+}
+
+#poster-add-ext{
+	padding-top: 10px;
+	background:#005677;
+	padding-bottom: 10px;
+}
+
+#poster-add-ext > div:first-child{
+
+	display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+#poster-add-ext > div:last-child > div:last-child {
+
+display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+#poster-add-ext > div:first-child img {
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#poster-add-ext > div:last-child .circulo{
+	 width: 20px;
+     height: 20px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #02C9EC;
+
+	
+
+}
+
+#poster-add-ext > div:last-child .texto{
+	 color: white;
+	 font-weight: 100;
+
+}
+
+    

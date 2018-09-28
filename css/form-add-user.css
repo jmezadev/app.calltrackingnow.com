@@ -1,0 +1,74 @@
+#form-add-user > .jarviswidget>header {
+	display: flex;
+    justify-content: left;
+    align-items: center;
+    height: auto;
+    color: white!important;
+    border: none!important;
+    background: #3276b1!important;
+}
+
+#form-add-user{
+	margin-top:5%;
+}
+
+ #form-add-user  #create-user-form fieldset > .row > section {
+	display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+  #form-add-user  #create-user-form fieldset > .row > section > label:last-child {
+	padding-right: 0px!important;
+
+}
+
+#form-add-user  #create-user-form fieldset  {
+
+    padding-left: 0!important;
+
+}
+
+#poster-add-user{
+	padding-top: 10px;
+	//background:#005677;
+	padding-bottom: 10px;
+	//height: 74vh;
+	//border-radius: 20px;
+}
+
+
+/* #poster-add-user > div:first-child{
+
+	display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+#poster-add-user > div:last-child > div:last-child {
+
+display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+
+#poster-add-user > div:first-child img {
+
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+.circulo{
+	background: #02C9EC;
+	min-width: 20px;
+  margin-right: 10px;
+	height: 20px;
+	border-radius:10px;
+}
+#poster-add-user > div:last-child .texto{
+	 color: white;
+	 font-weight: 100;
+	 float:left;
+}

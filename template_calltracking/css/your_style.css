@@ -1,0 +1,45 @@
+/***************************BEGIN OF DARK ELEGANT THEME**********************************/
+#left-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 904;
+    padding-top: 91px;
+}
+/*SET THE HEIGHT OF LOGO CONTAINER*/
+#header>div {
+    height: 89px;
+}
+/*LOGO SIZES AND MARGINS*/
+#logo img {
+    width: 134px;
+    padding-left: 16px;
+    margin-top: 5px;
+}
+/*HOME HORIZONTAL HEADER BAR*/
+.smart-style-1 #ribbon {
+    background: #005677;
+}
+/*HOME BAR INACTIVE LINK*/
+.smart-style-1 #ribbon .breadcrumb, .smart-style-1 #ribbon .breadcrumb a {
+    color: #ffffffcc !important;
+}
+/*HOME BAR LINK SEPARATOR*/
+.smart-style-1 .breadcrumb>li+li:before {
+    color: #fffcfc7d;
+}
+/*HOME BAR ACTIVE LINK*/
+.smart-style-1 #ribbon .breadcrumb li:last-child, .smart-style-1 #ribbon .breadcrumb>.active {
+    color: #00CFFF !important;
+}
+/*HEADER PROJECT BAR BUTTONS */
+.smart-style-1 .btn-header>:first-child>a {
+    background: #015f84;
+    border: 1px solid #015575;
+    color: #ffffffb0 !important;
+    cursor: pointer !important;
+}
+/*HIDDING THE ADMIN PANEL*/
+.demo{
+  display: none;
+}
